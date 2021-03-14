@@ -1,0 +1,39 @@
+.main-container
+{
+    margin: 1.2em 3em;
+    border: 1px solid black;
+    padding: 2em;
+   
+}
+.main-container > input
+{   
+    height: 3em;
+    border: none;
+    border: 1px solid black;
+    border-radius: 24px;
+   width: 100%;
+    font-size: 1em;
+    min-width: 100%;
+    max-width: 100%;
+}
+.main-container>input:focus{
+    
+    outline: none;
+    font-size: 1em;
+    height: 3em;
+    border: 1px solid black;
+    border-radius:24px;
+    padding: 0 1.2em;
+    background: whitesmoke;
+    max-width: 100%;
+
+}
+#emoji
+{
+    border: 1px solid ;
+    border-radius: 24px;
+    height: 2em;
+    padding: 0 2em;
+    background: lightgray;
+    
+}
